@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp"
+    android:layout_margin="10dp"
+    android:id="@+id/cvPhieuMuon">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/tvNguoiMuon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/tvSachMuon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="TextView"
+            android:layout_below="@+id/tvNguoiMuon"/>
+
+        <TextView
+            android:id="@+id/tvNgayMuon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="TextView"
+            android:layout_below="@+id/tvSachMuon"/>
+
+        <ImageView
+            android:id="@+id/imgEditPhieuMuon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/edit" />
+
+        <ImageView
+            android:id="@+id/imgdeletePhieuMuon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/imgEditPhieuMuon"
+            app:srcCompat="@drawable/trash" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

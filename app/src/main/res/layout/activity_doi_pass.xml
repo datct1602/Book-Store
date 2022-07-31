@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DoiPassActivity"
+    android:background="@drawable/backgroundchangespass"
+    android:padding="30dp">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/doipassword">
+
+    </ImageView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/img1"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+       >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            >
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mật khẩu mới"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#CF3356"
+                android:layout_marginTop="10dp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/edtMatKhauHt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_edit_update_insert"
+                android:hint="Mật khẩu hiện tại"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:textSize="15dp"
+                android:padding="10dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/edtMkMoi"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/edtMatKhauHt"
+                android:background="@drawable/custom_edit_update_insert"
+                android:hint="Mật khẩu mới"
+                android:textSize="15dp"
+                android:layout_marginTop="30dp"
+                android:padding="10dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/edtNhapLaiMk"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/edtMkMoi"
+                android:background="@drawable/custom_edit_update_insert"
+                android:hint="Nhập lại mật khẩu mới"
+                android:textSize="15dp"
+                android:layout_marginTop="30dp"
+                android:padding="10dp">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/btnDoiPass"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/edtNhapLaiMk"
+                android:layout_marginTop="30dp"
+                android:text="Lưu" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

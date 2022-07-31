@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginActivity"
+    android:background="@drawable/background_login"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_rlt_login"
+        android:layout_centerVertical="true"
+        android:padding="30dp">
+
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="SIGN IN"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tvLogin"
+            android:background="#707070"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/edtUsernames"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/view"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_edittext_login"
+            android:drawableLeft="@drawable/username"
+            android:drawablePadding="20dp"
+            android:hint="USERNAME"
+            android:paddingLeft="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtPasswords"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/edtUsernames"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_edittext_login"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="20dp"
+            android:hint="PASSWORD"
+            android:paddingLeft="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:inputType="textPassword"></EditText>
+
+        <Button
+            android:id="@+id/btnSignin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/edtPasswords"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_btn_login"
+            android:text="Sign in"
+            android:textColor="#F0E3D8"
+            android:textSize="15dp"
+            android:textStyle="bold">
+
+        </Button>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/btnSignin"
+            android:background="#707070"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Bạn đã có tài khoản ?"
+            android:textSize="10dp"
+            android:textStyle="bold"></TextView>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

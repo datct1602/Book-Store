@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Phiếu mượn" android:icon="@drawable/ticket" android:id="@+id/nav_phieuMuon"></item>
+        <item android:title="Sách" android:icon="@drawable/book" android:id="@+id/nav_sach"></item>
+        <item android:title="Loại sách" android:icon="@drawable/lbook" android:id="@+id/nav_loaiSach"></item>
+        <item android:title="Thành viên" android:icon="@drawable/mem" android:id="@+id/nav_thanhVien"></item>
+        <item android:title="Thống kê" android:icon="@drawable/thongke" android:id="@+id/nav_thongKe"></item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Người dùng">
+            <menu>
+                <item android:title="Đổi mật khẩu" android:icon="@drawable/logout" android:id="@+id/nav_doiMk"></item>
+                <item android:title="Đăng xuất" android:icon="@drawable/change" android:id="@+id/nav_dangXuat"></item>
+            </menu>
+        </item>
+    </group>
+
+</menu>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/drawable/custom_background_tv.xml" value="0.3880208333333333" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/drawable/custom_btn_login.xml" value="0.3880208333333333" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/drawable/custom_btnv.xml" value="0.3880208333333333" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/drawable/custom_edit_update_insert.xml" value="0.3880208333333333" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/drawable/custom_edittext_login.xml" value="0.3880208333333333" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/drawable/custom_relative_main.xml" value="0.3880208333333333" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/drawable/custom_rlt_item.xml" value="0.3875" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/drawable/custom_rlt_login.xml" value="0.3880208333333333" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3880208333333333" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout-w1240dp/activity_sigin.xml" value="0.2389558232931727" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/aa.xml" value="0.371875" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/activity_doi_pass.xml" value="0.33469202898550726" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/activity_gioi_thieu1.xml" value="0.25" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/activity_gioi_thieu2.xml" value="0.2957427536231884" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/activity_login.xml" value="0.2957427536231884" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/activity_phieu_muon.xml" value="0.371875" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/activity_sigin.xml" value="0.33469202898550726" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/add_loai.xml" value="0.3451086956521739" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/add_phieumuon.xml" value="0.3451086956521739" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/add_sach.xml" value="0.3451086956521739" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/add_thanhvien.xml" value="0.3451086956521739" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/asd.xml" value="0.20885416666666667" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/content_phieu_muon.xml" value="0.371875" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/dangxuat.xml" value="0.33469202898550726" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/fragment_loai_sach.xml" value="0.371875" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/fragment_phieu_muon.xml" value="0.371875" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/fragment_sach.xml" value="0.33" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/fragment_second.xml" value="0.16" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/fragment_thanh_vien.xml" value="0.33" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/fragment_thong_ke.xml" value="0.20885416666666667" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/header.xml" value="0.371875" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/item_loaisach.xml" value="0.371875" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/item_phieumuon.xml" value="0.209375" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/item_sach.xml" value="0.371875" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/item_thanhvien.xml" value="0.20885416666666667" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/sach_item.xml" value="0.3432971014492754" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/update_loai.xml" value="0.20885416666666667" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/update_phieumuon.xml" value="0.3451086956521739" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/update_sach.xml" value="0.3451086956521739" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/layout/update_thanhvien.xml" value="0.3451086956521739" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/menu/btnv_menu.xml" value="0.33" />
+        <entry key="..\:/Android/PS17284_ChauTanDat_ASM_DUAN/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/datch/Downloads/Android/app/src/main/res/layout/activity_login.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/datch/Downloads/Android/app/src/main/res/layout/add_phieumuon.xml" value="0.1641337386018237" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
